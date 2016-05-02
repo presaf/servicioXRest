@@ -38,5 +38,22 @@
 			<artifactId>xtrest</artifactId>
 			<version>0.1.4</version>
 		</dependency>
+		<dependency>
+			<groupId>org.eclipse.xtend</groupId>
+			<artifactId>org.eclipse.xtend.lib</artifactId>
+			<version>${xtend.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>unq-ciu</groupId>
+			<artifactId>gatoEncerrado</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 </project>

@@ -4,9 +4,9 @@ import org.eclipse.xtend.lib.annotations.Accessors
 
 @Accessors
 class Calculadora {
-
-	//var int n1
-	//var int n2
+	
+	static final Calculadora instance = new Calculadora()
+	
 	new() {
 	}
 
@@ -24,6 +24,10 @@ class Calculadora {
 	
 	def int dividir(int a, int b){
 		(a / b)
+	}
+	
+	def static Calculadora getInstance() {
+		return instance
 	}
 	
 	def static void main(String[] args){
